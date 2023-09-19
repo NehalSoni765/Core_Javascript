@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./styles/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <h1 class="header__title">To-do App</h1>
+                <h2 class="header__subtitle">What do you need to do?</h2>
+            </div>
+        </div>
+        <div class="actions">
+            <div class="actions__container">
+                <input id="search-text" class="input" type="text" placeholder="Filter Todos"/>
+                <select id="filter-by" class="dropdown">
+                    <option value="byEdited" selected>Sort by last edited</option>
+                    <option value="byCreated">Sort by recently created</option>
+                    <option value="alphabetically">Sort by alphabetically</option>
+                </select>
+                <label class="checkbox">
+                    <input type="checkbox" id="hide-completed">
+                        Hide completed
+                </label>
+            </div>
+        </div>
+        <div class="container">
+            <div id="todos"></div>
+            <form id="form-name">
+                <input typ="text" name="text" id="text" class="input" placeholder="Something to do">
+                <button class="button">Add to do</button>
+            </form>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js"></script>
+        <script src="./scripts/uuidv4.js"></script>
+        <script src="./scripts/todos-functions.js"></script>
+        <script src="./scripts/index.js"></script>
+        <!-- <script src="uuidv4.js"></script> -->
+        <!-- <script type="module">//github.com/kelektiv/node-uuid
+            import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
+            window.uuidv4 = uuidv4; // Export uuidv4 to the global scope
+          </script>
+        </script> -->
+    </body>
+</html>

@@ -1,0 +1,20 @@
+variable{
+    lexicon scope means global,local scope
+    data type not define with variable -> set variable as global
+    
+    var functional based scope / let-const block based scope
+    var = reassigned,overwrite
+    let = reassigned but not declare same variable with data type of let
+    const = work as final keyword : do not reassigned
+
+    hoisting concept
+    with var no reference error 
+}
+
+DOM = Document Object Model{
+    object = Document
+    model = html Document page where we can read,write,update the dom
+}
+
+
+netlify
