@@ -22,5 +22,5 @@ console.log("check "+restaurant.checkAvailability(4));
 const someObject = {}
 const otherObject = someObject
 console.log("same as reference object"+otherObject===otherObject);
-console.log("same "+{}==={});
+// console.log("same "+{}==={});
 

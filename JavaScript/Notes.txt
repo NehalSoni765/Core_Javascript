@@ -16,5 +16,20 @@ DOM = Document Object Model{
     model = html Document page where we can read,write,update the dom
 }
 
+hosting site
+netlify 
+surge
+add npm i -g surge
+from your folder to host :surge  example cd oop/hangman => surege
+add email password 
 
-netlify
+
+{
+    babel{
+        > to resolve browser compability issue we use babel that take our js code and converting to all browser understand
+    }
+    webpack{
+        why> using babel hard to share the code without sequence
+    }
+}
+
