@@ -1,1 +1,1 @@
-﻿# core javascript course by andrew maiden
+﻿# core javascript concepts covered in this course
